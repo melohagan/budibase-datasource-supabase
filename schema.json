@@ -26,7 +26,7 @@
         "type": "fields",
         "fields": {
           "from": {
-            "display": "From",
+            "display": "From table",
             "type": "string",
             "required": true
           },
@@ -41,12 +41,12 @@
         "type": "fields",
         "fields": {
           "from": {
-            "display": "From",
+            "display": "From table",
             "type": "string",
             "required": true
           },
           "select": {
-            "display": "Select",
+            "display": "Select columns",
             "type": "string",
             "required": false
           }
@@ -56,7 +56,7 @@
         "type": "fields",
         "fields": {
           "from": {
-            "display": "From",
+            "display": "From table",
             "type": "string",
             "required": true
           },
@@ -71,7 +71,7 @@
         "type": "fields",
         "fields": {
           "from": {
-            "display": "From",
+            "display": "From table",
             "type": "string",
             "required": true
           },
@@ -86,7 +86,7 @@
         "type": "fields",
         "fields": {
           "from": {
-            "display": "From",
+            "display": "From table",
             "type": "string",
             "required": true
           }
