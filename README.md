@@ -1,5 +1,12 @@
 # Supabase-datasource
-This is a readme for your new Budibase plugin.
+Includes:
+ - Insert
+ - Select
+ - Upsert
+ - Update
+ - Delete
+ 
+Official docs here: https://supabase.com/docs/reference/javascript/select
 
 # Description
 Perform CRUD operations in Supabase
