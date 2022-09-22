@@ -1,0 +1,254 @@
+{
+  "type": "datasource",
+  "metadata": {},
+  "schema": {
+    "docs": "https://supabase.com/docs/reference/javascript/select",
+    "friendlyName": "Supabase",
+    "type": "Relational",
+    "description": "Performs CRUD operations for Supabase",
+    "datasource": {
+      "supabaseUrl": {
+        "type": "string",
+        "required": true
+      },
+      "supabaseKey": {
+        "type": "password",
+        "required": true
+      },
+      "schema": {
+        "type": "string",
+        "required": false,
+        "default": "public"
+      }
+    },
+    "query": {
+      "create": {
+        "type": "fields",
+        "fields": {
+          "from": {
+            "display": "From",
+            "type": "string",
+            "required": true
+          },
+          "records": {
+            "display": "Records",
+            "type": "json",
+            "required": true
+          }
+        }
+      },
+      "read": {
+        "type": "fields",
+        "fields": {
+          "from": {
+            "display": "From",
+            "type": "string",
+            "required": true
+          },
+          "select": {
+            "display": "Select",
+            "type": "string",
+            "required": false
+          }
+        }
+      },
+      "update": {
+        "type": "fields",
+        "fields": {
+          "from": {
+            "display": "From",
+            "type": "string",
+            "required": true
+          },
+          "json": {
+            "display": "Json",
+            "type": "json",
+            "required": true
+          }
+        }
+      },
+      "upsert": {
+        "type": "fields",
+        "fields": {
+          "from": {
+            "display": "From",
+            "type": "string",
+            "required": true
+          },
+          "json": {
+            "display": "Json",
+            "type": "json",
+            "required": true
+          }
+        }
+      },
+      "delete": {
+        "type": "fields",
+        "fields": {
+          "from": {
+            "display": "From",
+            "type": "string",
+            "required": true
+          }
+        }
+      }
+    },
+    "extra": {
+      "filterColumn": {
+        "displayName": "Filter column",
+        "type": "string",
+        "required": false
+      },
+      "filter": {
+        "displayName": "Filter operator",
+        "type": "list",
+        "required": false,
+        "data": {
+          "read": [
+            "eq",
+            "neq",
+            "gt",
+            "gte",
+            "lt",
+            "lte",
+            "like",
+            "ilike",
+            "is",
+            "in",
+            "cs",
+            "cd",
+            "sl",
+            "sr",
+            "nxl",
+            "nxr",
+            "adj",
+            "ov",
+            "fts",
+            "plfts",
+            "phfts",
+            "wfts",
+            "not.eq",
+            "not.neq",
+            "not.gt",
+            "not.gte",
+            "not.lt",
+            "not.lte",
+            "not.like",
+            "not.ilike",
+            "not.is",
+            "not.in",
+            "not.cs",
+            "not.cd",
+            "not.sl",
+            "not.sr",
+            "not.nxl",
+            "not.nxr",
+            "not.adj",
+            "not.ov",
+            "not.fts",
+            "not.plfts",
+            "not.phfts",
+            "not.wfts"
+          ],
+          "update": [
+            "eq",
+            "neq",
+            "gt",
+            "gte",
+            "lt",
+            "lte",
+            "like",
+            "ilike",
+            "is",
+            "in",
+            "cs",
+            "cd",
+            "sl",
+            "sr",
+            "nxl",
+            "nxr",
+            "adj",
+            "ov",
+            "fts",
+            "plfts",
+            "phfts",
+            "wfts",
+            "not.eq",
+            "not.neq",
+            "not.gt",
+            "not.gte",
+            "not.lt",
+            "not.lte",
+            "not.like",
+            "not.ilike",
+            "not.is",
+            "not.in",
+            "not.cs",
+            "not.cd",
+            "not.sl",
+            "not.sr",
+            "not.nxl",
+            "not.nxr",
+            "not.adj",
+            "not.ov",
+            "not.fts",
+            "not.plfts",
+            "not.phfts",
+            "not.wfts"
+          ],
+          "delete": [
+            "eq",
+            "neq",
+            "gt",
+            "gte",
+            "lt",
+            "lte",
+            "like",
+            "ilike",
+            "is",
+            "in",
+            "cs",
+            "cd",
+            "sl",
+            "sr",
+            "nxl",
+            "nxr",
+            "adj",
+            "ov",
+            "fts",
+            "plfts",
+            "phfts",
+            "wfts",
+            "not.eq",
+            "not.neq",
+            "not.gt",
+            "not.gte",
+            "not.lt",
+            "not.lte",
+            "not.like",
+            "not.ilike",
+            "not.is",
+            "not.in",
+            "not.cs",
+            "not.cd",
+            "not.sl",
+            "not.sr",
+            "not.nxl",
+            "not.nxr",
+            "not.adj",
+            "not.ov",
+            "not.fts",
+            "not.plfts",
+            "not.phfts",
+            "not.wfts"
+          ]
+        }
+      },
+      "filterValue": {
+        "displayName": "Filter value",
+        "type": "string",
+        "required": false
+      }
+    }
+  }
+}
