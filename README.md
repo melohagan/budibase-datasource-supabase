@@ -1,4 +1,7 @@
 # Supabase-datasource
+
+<img src="https://bookface-images.s3.amazonaws.com/logos/08f3d41684b91f7d68810459b2356ecb4819c382.png" />
+
 Includes:
  - Insert
  - Select
