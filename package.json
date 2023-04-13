@@ -1,6 +1,6 @@
 {
   "name": "supabase-datasource",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Perform CRUD operations in Supabase",
   "main": "src/index.ts",
   "license": "MIT",
