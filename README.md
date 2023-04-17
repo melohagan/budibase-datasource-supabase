@@ -32,7 +32,6 @@ Finally click on `API` to see the project URL and project API keys:
 
 ![Screenshot 2023-04-17 at 12 06 51](https://user-images.githubusercontent.com/101575380/232466984-141225e8-eb57-43cf-8be0-ab61c607924f.png)
 
-----
 
 ## Usage
 
@@ -51,3 +50,7 @@ Note that we are returning *data.data* in the transformer. You can return just *
 If you provide a *Filter column* then a filter will be applied based on the chosen operator and comparison value. There is a large list of available operators, detailed for which can be found [here](https://supabase.com/docs/reference/javascript/using-filters).
 
 ![Screenshot 2023-04-17 at 12 21 51](https://user-images.githubusercontent.com/101575380/232470127-9b59f6fe-ec98-44c2-b4ee-485658d62d16.png)
+
+### Bindings
+
+Like any other custom query, you can add bindings and use them in the **Fields** section: https://docs.budibase.com/docs/data-sources#using-query-bindings
