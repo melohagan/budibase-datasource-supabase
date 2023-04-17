@@ -23,3 +23,11 @@ Provide a URL and API Key to connect:
 These can be found within your project page in Supabase:
 
 <img width="429" alt="Screenshot 2023-04-13 at 18 45 21" src="https://user-images.githubusercontent.com/101575380/231841751-a694795a-19e9-4ef6-8377-8f8c081c30de.png">
+
+Click on the settings cog along the left-hand side:
+
+![Screenshot 2023-04-17 at 12 05 15](https://user-images.githubusercontent.com/101575380/232466657-3bc553eb-62eb-4d40-833b-7dadc0408454.png)
+
+Finally click on `API` to see the project URL and project API keys:
+
+![Screenshot 2023-04-17 at 12 06 51](https://user-images.githubusercontent.com/101575380/232466984-141225e8-eb57-43cf-8be0-ab61c607924f.png)
